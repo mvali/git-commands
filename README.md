@@ -1,5 +1,35 @@
-# Welcome to GitHub Desktop!
+# Let's have here couple git commands with very short description
+ Commands in execution order:
+Right click inside desired local folder and choose: "Git Bash here"
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+1. git init // initialize git repository in the root of current folder where bash was initialized
+   git remote add origin	https://github.com/myusernameongithub/project-repository-url.git // atach server (called remote) to your local repository 
+   git config --global user.email "youremail@email.com"
+   git config --global user.name "myusernameongithub"
+   git push origin main  // on first time access will ask for authorization on github
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+          ssh-keyscan github.com >> ~/.ssh/known_hosts   // execute if error: The authenticity of host 'github.com (140.82.121.3)' can't be established
+	        cd ~/.ssh && ssh-keygen                        // execute if error: git@github.com: Permission denied (publickey).
+                    will ask for a filename and a passphrase
+
+2. git add -A	// add files to repository
+3. git status	// check to see files that git detected as new, ready to be commited
+   git reset	// delete update before committing
+4. git commit -m "commit message" // create commit (-m with message)
+5. git branch	//list branches and confirm existence of a branch
+6. git checkout -b BranchVali // create a new branch (-b if branch does not exist)
+   git checkout    BranchVali // switch to existing branch
+   git checkout main  // switch back to primary branch
+   git switch Existing-branch  // switch between branches
+   git switch -c Non-existing-branch // -c create branch if does not exist
+7. git push -u origin BranchVali     // push branch on github [(-u)remembers: location to push: "BranchVali" ]
+8. // create pull request on web interface
+9. // merge PR pull request
+10. git pull origin main  // get changes on on github back to your computer
+    git clone https://github.com/myusernameongithub/project-repository-link  // Copy entire repository (only once) to local machine (authorize asked if required)
+11. git log  // see all commits
+12. git branch -d LocalBranch // delete local branch (-d only if has been pushed and merged with remote branch)
+    git branch -D LocalBranch // delete local branch (-D will force delete even if not pushed or merged)
+13. git push origin --delete branch-to-be-deleted  //delete remote branch
+    git push origin :branch-to-be-deleted  	   //delete remote branch - short version
+15. git fetch -p  //  synchronize branch list (-p branches that do not exist on remote wil be deleted)
