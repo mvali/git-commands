@@ -8,9 +8,9 @@ Right click inside desired local folder and choose: "Git Bash here"
    git config --global user.name "myusernameongithub" <br>
    git push origin main  // on first time access will ask for authorization on github <br>
 
-          ssh-keyscan github.com >> ~/.ssh/known_hosts   // execute if error: The authenticity of host 'github.com (140.82.121.3)' can't be established
-	  cd ~/.ssh && ssh-keygen                        // execute if error: git@github.com: Permission denied (publickey).
-                    will ask for a filename and a passphrase
+   ssh-keyscan github.com >> ~/.ssh/known_hosts   // execute if error: The authenticity of host 'github.com (140.82.121.3)' can't be established <br>
+   cd ~/.ssh && ssh-keygen                        // execute if error: git@github.com: Permission denied (publickey). <br>
+                    will ask for a filename and a passphrase <br>
 
 2. git add -A	// add files to repository 
 3. git status	// check to see files that git detected as new, ready to be commited  <br>
