@@ -17,7 +17,7 @@ Right click inside desired local folder and choose: "Git Bash here"
    git reset	// delete update before committing <br>
    git reset --hard origin/master  //  remove local changes or reset your local master to the state on remote <br>
    git diff master origin/master 	// see changes you'll be removing <br>
-		Navigating to view:  <br>
+		Navigating in view:  <br>
 			Next line             : return  <br>
 			Next page             : space bar <br>
 			Previous page         : w <br>
