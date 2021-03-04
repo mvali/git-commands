@@ -21,7 +21,7 @@ Right click inside desired local folder and choose: "Git Bash here"
 			&emsp;&emsp; Next line             : return  <br>
 			&emsp;&emsp; Next page             : space bar <br>
 			&emsp;&emsp; Previous page         : w <br>
-			&#09;&emsp;&emsp; Quit viewing the diff : q <br>
+			&emsp;&emsp; Quit viewing the diff : q <br>
 			&emsp;&emsp; Help                  : h <br>
 4. git commit -m "commit message" // create commit (-m with message)
 5. git branch	//list branches and confirm existence of a branch
