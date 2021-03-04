@@ -17,12 +17,12 @@ Right click inside desired local folder and choose: "Git Bash here"
    git reset	// delete update before committing <br>
    git reset --hard origin/master  //  remove local changes or reset your local master to the state on remote <br>
    git diff master origin/master 	// see changes you'll be removing <br>
-		Navigating in view:  <br>
-			Next line             : return  <br>
-			Next page             : space bar <br>
-			Previous page         : w <br>
-			Quit viewing the diff : q <br>
-			Help                  : h <br>
+		&emsp; Navigating in view:  <br>
+			&emsp;&emsp; Next line             : return  <br>
+			&emsp;&emsp; Next page             : space bar <br>
+			&emsp;&emsp; Previous page         : w <br>
+			&emsp;&emsp; Quit viewing the diff : q <br>
+			&emsp;&emsp; Help                  : h <br>
 4. git commit -m "commit message" // create commit (-m with message)
 5. git branch	//list branches and confirm existence of a branch
 6. git checkout -b BranchVali // create a new branch (-b if branch does not exist)  <br>
